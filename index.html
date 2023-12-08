@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodriguez Alex</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header>
+    <div class="encabezadoUno">
+      <ul class="enlaces-encabezado">
+        <li><a href="">Home</a></li>
+        <li> <a href="">Events</a></li>
+        <li> <a href="">News</a></li>
+        <li> <a href="">Contact us</a> </li>
+        <li> <a href="">Login</a> </li>
+      </ul>
+
+      <div class="buscador">
+        <input type="text" placeholder="search" id="buscador" />
+        <button
+          class="btn-buscar"
+          type="button"
+          id="boton-buscar"
+        >
+          <img src="img/lupa.png" width="12px" height="12px" alt="" />
+        </button>
+        <button onclick="ContadorDeClicks()">CONTADOR</button>
+
+      </div>
+    </div>
+    <div class="encabezadoDos">
+      <div class="text-logo"><b>AXSH</b></div>
+      <div class="text-descripcion">Diseñador grafico</div>
+    </div>
+    <div class="encabezadoTres">
+      <ul class="enlaces-encabezadoDos">
+        <li><a href="">PRODUCTS</a></li>
+        <li> <a href="">SERVICES</a></li>
+        <li> <a href="">SOLUTIONS</a></li>
+        <li> <a href="">PARTS</a> </li>
+        <li> <a href="">SUPPORT</a> </li>
+        <li> <div id="reloj"></div> </li>
+  
+ 
+      </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="columna-izquierda">
+      <h2>PRODUCTS</h2>
+      <p>lore ipsum</p>
+      <p>lore ipsum</p>
+      <p>lore ipsum</p>
+      <p>lore ipsum</p>
+      <div class="imagenes">
+        <img src="img/1.jpg" width="300px" alt="">
+        <img src="img/2.jpg"  width="300px" alt="">
+        <img src="img/1.jpg"  width="300px" alt="">
+      </div>
+    </div>
+    <div class="columna-derecho">
+
+    <div class="descripcion-main">
+      <div class="portada">
+        <img src="img/portada.jpg" height="300px" alt="">
+      </div>
+      <div class="descripcion">
+        <h3 class="titulo-des">Mejores diseños</h3>
+        <h4>Buscanos</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo in voluptates? Facilis vitae iusto provident animi ratione maxime vel quod. Laborum numquam perferendis minima quisquam, laudantium fuga! Quis, suscipit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo in voluptates? Facilis vitae iusto provident animi ratione maxime vel quod. Laborum numquam perferendis minima quisquam, laudantium fuga! Quis, suscipit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo in voluptates? Facilis vitae iusto provident animi ratione maxime vel quod. Laborum numquam perferendis minima quisquam, laudantium fuga! Quis, suscipit.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo in voluptates? Facilis vitae iusto provident animi ratione maxime vel quod. Laborum numquam perferendis minima quisquam, laudantium fuga! Quis, suscipit.</p>
+      </div>
+      <div class="botones">
+
+        <button onclick="CambiarEstilosCSSDinamicos()" class="re">Request information</button>
+        <button onclick="CambiarEstilosCSSDinamicos2()" class="verI">Ver informacion y tecnicas especificas</button>
+      </div>
+    </div>
+
+    <div class="descripcion-mainDos">
+
+      <div class="relatedP">
+        <h4>Buscanos</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="feautres">
+        <h2>Features</h2>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>Tempora cumque ducimus temporibus necessitatibus eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>explicabo eaque debitis totam, delectus reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>Facilis, eaque officia! Voluptates voluptas esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>dolorem quod enim sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>explicabo eaque debitis totam, delectus reprehenderit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>Tempora cumque ducimus temporibus necessitatibus eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>explicabo eaque debitis totam, delectus reprehenderit.</li>
+          <li>Facilis, eaque officia! Voluptates voluptas esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+          <li>dolorem quod enim sapiente</li>
+          <li>explicabo eaque debitis totam, delectus reprehenderit</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="producto-tabla">
+      <table>
+        <tr>
+          <th></th>
+          <th>Productos especificos</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+        </tr>
+      </table>
+      <div class="producto-imagen">
+        <h2>Productos y Accesorios</h2>
+          <div class="imagenes-p">
+            <div class="img-des">
+              <img src="/img/portada.jpg" width="150px" alt="">
+              <p>label</p>
+            </div>
+            <div class="img-des">
+              <img src="/img/portada.jpg" width="150px" alt="">
+              <p>label</p>
+            </div>
+            <div class="img-des">
+              <img src="/img/portada.jpg" width="150px" alt="">
+              <p>label</p>
+            </div>
+            <div class="img-des">
+              <img src="/img/portada.jpg" width="150px" alt="">
+              <p>label</p>
+            </div>
+            <div class="img-des">
+              <img src="/img/portada.jpg" width="150px" alt="">
+              <p>label</p>
+            </div>
+   
+          </div>
+      </div>
+    </div>
+
+
+  </div>
+  </main>
+  <footer>
+    TODOS LOS DERECHOS RESERVADOS.. ALEXANDER RODDRIGUEZ CORCOS
+  </footer>
+
+
+<script>
+  // Función para contar clics
+  let contadorClicks = 0;
+
+  function ContadorDeClicks() {
+    contadorClicks++;
+    alert(`Has hecho ${contadorClicks} clic(s).`);
+  }
+
+   // Función para mostrar el reloj en tiempo real
+   function RelojEnTiempoReal() {
+      const relojElemento = document.getElementById('reloj');
+
+      function actualizarReloj() {
+        const ahora = new Date();
+        const horas = ahora.getHours();
+        const minutos = ahora.getMinutes();
+        const segundos = ahora.getSeconds();
+
+        const tiempo = `${horas}:${minutos}:${segundos}`;
+        relojElemento.textContent = tiempo;
+      }
+
+      // Llamamos a la función para que inicie desde el principio
+      actualizarReloj(); // Agregamos esta línea para mostrar la hora desde el principio
+      setInterval(actualizarReloj, 1000); // Actualizar cada segundo
+    }
+
+
+    RelojEnTiempoReal();
+
+
+  function CambiarEstilosCSSDinamicos() {
+      const encabezadoUno = document.querySelector('.encabezadoUno');
+      encabezadoUno.style.backgroundColor = 'lightblue';
+    }
+
+    function CambiarEstilosCSSDinamicos2() {
+      const encabezadoUno = document.querySelector('.encabezadoTres');
+      encabezadoUno.style.backgroundColor = 'blue';
+    }
+</script>
+</body>
+</html>
